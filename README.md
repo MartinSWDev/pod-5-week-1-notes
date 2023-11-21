@@ -1,7 +1,7 @@
-# Bootcamp Collaborative GitHub Practice 1
+# POD 5 Collaborative GitHub Practice 1
 
 ## Introduction
-Welcome to our Bootcamp's Week 1 GitHub task! This task is designed to give you hands-on experience with GitHub, a crucial tool in software development. You will work in the same repository, which does NOT have branch protections to highlight issues you might encounter.
+Welcome to our POD 5 GitHub task 1! This task is designed to give you hands-on experience with GitHub, a crucial tool in software development. You will work in the same repository, which does NOT have branch protections to highlight issues you might encounter.
 
 ## Objectives
 - Familiarize yourself with basic GitHub operations.
@@ -9,6 +9,7 @@ Welcome to our Bootcamp's Week 1 GitHub task! This task is designed to give you 
 - Understand the importance of communication and best practices in version control.
 
 ## Tasks
+0. **Post your GitHub Username in POD 5 channel message in slack**
 1. **Clone the Repository**: Clone this repository to your local machine.
 2. **Add Week 1 Notes**: Create a new file or add to an existing file with notes about the content from the first week of our bootcamp (HTML & a bit of CSS) Commit and push these notes to the repository.
 3. **Edit the README**: Add your GitHub username to the Contributors section of this README file with a link to your GitHub profile.
