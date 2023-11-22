@@ -1,0 +1,11 @@
+.edited-by-SzilviaHorvath {
+    background-color: rgb(209, 219, 152);
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding: .5rem;
+}
+.edited-by-SzilviaHorvath > p > span {
+    font-style: italic;
+}
