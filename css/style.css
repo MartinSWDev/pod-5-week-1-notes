@@ -1,3 +1,12 @@
+/* edited by Moska */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
 .edited-by-SzilviaHorvath {
     background-color: rgb(209, 219, 152);
     border: 2px solid gray;
@@ -8,4 +17,26 @@
 }
 .edited-by-SzilviaHorvath > p > span {
     font-style: italic;
+}
+.edited-by-Moska {
+    background-color: rgb(173, 238, 242);
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding: .5rem;
+    float: left;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.git-tip {
+    background-color: rgb(243, 183, 255);
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding: .5rem;
+    text-align: center;
+    font-family: 'times new roman', times, serif;
+    float: left;
 }
