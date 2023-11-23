@@ -1,0 +1,147 @@
+/* Global Variables */
+:root {
+	--dark-green: rgb(64, 149, 111);
+	--super-light-pink: #ffdada;
+	--accent-red: #de5555;
+	--light-blue: rgb(125, 222, 222);
+
+	/* Feel free to play around with these and add more */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body,
+header {
+	font-family: 'Courier New', Courier, monospace;
+	color: var(--dark);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	border-bottom: solid;
+}
+
+/* edited by Moska */
+header h1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 2rem;
+	color: rgb(0, 0, 0);
+	text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+nav {
+	text-align: right;
+	margin: 20px;
+	z-index: 2;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--dark);
+	margin: 0px 15px 0 15px;
+	transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+	color: var(--accent-red);
+}
+
+/*header ends here*/
+
+#inspiration {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+  background: linear-gradient(to bottom, var(--super-light-pink), white);
+}
+
+.edited-by-SzilviaHorvath {
+	background-color: rgb(209, 219, 152);
+	border: 2px solid gray;
+	border-radius: 20px;
+	width: 200px;
+	text-align: center;
+	padding: .5rem;
+}
+
+.edited-by-SzilviaHorvath > p > span {
+	font-style: italic;
+}
+
+.edited-by-Moska {
+	background-color: rgb(173, 238, 242);
+	border: 2px solid gray;
+	border-radius: 20px;
+	width: 200px;
+	text-align: center;
+	padding: .5rem;
+	float: left;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#git-tips {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+  background: linear-gradient(to bottom, white, var(--light-blue));
+}
+
+.git-tip {
+	background-color: rgb(243, 183, 255);
+	border: 2px solid gray;
+	border-radius: 20px;
+	width: 200px;
+	text-align: center;
+	padding: .5rem;
+	text-align: center;
+	font-family: 'times new roman', times, serif;
+	float: left;
+}
+
+.git-tip h2 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+/* Footer starts here */
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	flex-wrap: wrap;
+	padding: 50px 0 50px 0;
+}
+
+footer a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 auto;
+	color: white;
+	transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+	color: var(--accent-red);
+}
+
+/* Add responsive tablet & phone styles */
+@media screen and (max-width: 575px) {
+	header h1 {
+		font-size: 1rem;
+	}
+}
