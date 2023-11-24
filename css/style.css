@@ -7,7 +7,7 @@ h1 {
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
-.edited-by-SzilviaHorvath {
+.einstein {
     background-color: rgb(209, 219, 152);
     border: 2px solid gray;
     border-radius: 20px;
@@ -15,7 +15,7 @@ h1 {
     text-align: center;
     padding: .5rem;
 }
-.edited-by-SzilviaHorvath > p > span {
+.einsteing > p > span {
     font-style: italic;
 }
 .edited-by-Moska {
