@@ -28,6 +28,7 @@ Welcome to our POD 5 GitHub task 1! This task is designed to give you hands-on e
 - [YourUsernameHere](#) (Add your username and link here)
   [hszilvi](https://github.com/hszilvi)
   [MoskaDowlatzay](https://github.com/MoskaDowlatzay)
+  [OlhaPobedynska](https://github.com/23birola)
 
 ## Resources
 
